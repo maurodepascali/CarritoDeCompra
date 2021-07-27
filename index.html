@@ -1,94 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Nonna Julia</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+        <meta name="description" content="pasteleria, reposteria y tortas">
+        <meta name="keywords" content="tortas, alfajores, muffins, budines">
+        <title>Nonna Julia</title>
+    </head>
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark">
-        <a href="index.html">Nonna Julia</a>
-      <!--- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>-->
-    </nav>
+    
     <header>
-        <div class="container">
-            <h1 class="text-center">NUESTROS PRODUCTOS</h1>
-            <hr>
-        </div>
+        <nav class="navbar" style="background-color: #da9393;">
+            <a href="index.html">Nonna Julia</a>
+           <!-- <div class="justify-content-lg-end">
+               
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><img src="img/carrito.png" alt=""></a>
+                  </li>
+                  </ul>
+            </div>-->
+        </nav>
+        
     </header>
-   
-    <section class="store">
+    
+    <div class="container">
+        <h1 class="text-center">NUESTROS PRODUCTOS</h1>
+        <hr>
+    </div>
+    
+    <section class="tienda">
         <div class="container">
             <div class="items">
                 <div class="row">
 
                     <div class="col-12 col-md-6">
-                        
-                            <h3 class="item-titulo">TORTA BROWNIE</h3>
-                            <img class="item-imagen" src="./img/torta1.jpg">
-                            <div class="item-detalle">
-                                <h4 class="item-precio">$1500</h4>
-                                <button class="item-boton btn btn-primary agregarCarrito">AÑADIR AL CARRITO</button>
-                            </div> 
-                    </div>
-                    <div class="col-12 col-md-6">
-                        
-                            <h3 class="item-titulo">TORTA RICOTA</h3>
+                        <div class="producto shadow mb-4">
+                           <h3 class="titulo">TORTA BROWNIE</h3>
+                            <img class="imagen" src="./img/brownie.jpg">
 
-                            <img class="item-imagen" src="./img/tortaricota.png">
-
-                            <div class="item-detalle">
-                                <h4 class="item-precio">$600</h4>
-                                <button class="item-boton btn btn-primary agregarCarrito">AÑADIR AL CARRITO</button>
+                            <div class="detalles">
+                                <h4 class="precio">$1200</h4>
+                                
+             
+                                <button class="boton btn btn-primary agregarACarrito">AÑADIR AL CARRITO</button>
                             </div>
-                        
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="producto shadow mb-4">
+                            <h3 class="titulo">CHEESECAKE</h3>
+
+                            <img class="imagen" src="./img/cheesecake.jpg">
+
+                            <div class="detalles">
+                                <h4 class="precio">$1500</h4>
+                                <button class="boton btn btn-primary agregarACarrito">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        
-                            <h3 class="item-titulo">CUPCAKES</h3>
+                        <div class="producto shadow mb-4">
+                            <h3 class="titulo">LEMON PIE</h3>
 
-                            <img class="item-imagen" src="./img/torta2.jpg">
+                            <img class="imagen" src="./img/lemon.jpg">
 
-                            <div class="item-detalle">
-                                <h4 class="item-precio">$120</h4>
-                                <button class="item-boton btn btn-primary agregarCarrito">AÑADIR AL CARRITO</button>
+                            <div class="detalles">
+                                <h4 class="precio">$1100</h4>
+                                <button class="boton btn btn-primary agregarACarrito">AÑADIR AL CARRITO</button>
                             </div>
-                        
+                        </div>
                     </div>
                     <div class="col-12 col-md-6">
-                       
-                            <h3 class="item-titulo">CHEESECAKE</h3>
+                        <div class="producto shadow mb-4">
+                            <h3 class="titulo">MARQUISE</h3>
 
-                            <img class="item-imagen" src="./img/cheesecake.jpg">
+                            <img class="imagen" src="./img/marquise.jpg">
 
-                            <div class="item-detalle">
-                                <h4 class="item-precio">$1300</h4>
-                                <button class="item-boton btn btn-primary agregarCarrito">AÑADIR AL CARRITO</button>
+                            <div class="detalles">
+                                <h4 class="precio">$1300</h4>
+                                <button class="boton btn btn-primary agregarACarrito">AÑADIR AL CARRITO</button>
                             </div>
-                        
+                        </div>
                     </div>
                 </div>
-               
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="producto shadow mb-4">
+                            <h3 class="titulo">TORTA MOUSSE</h3>
+
+                            <img class="imagen" src="./img/mousse.jpg">
+                            <div class="detalles">
+                                <h4 class="precio">$1400</h4>
+                                <button class="boton btn btn-primary agregarACarrito">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="producto shadow mb-4">
+                            <h3 class="titulo">TORTA OREO</h3>
+
+                            <img class="imagen" src="./img/oreo.jpg">
+                            <div class="detalles">
+                                <h4 class="precio">$1200</h4>
+                                <button class="boton btn btn-primary agregarACarrito">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
-
+   
     <section class="carrito">
         <div class="container">
-            <h1 class="text-center">CARRITO</h1>
+            <h1 class="text-center">CARRITO DE COMPRAS</h1>
             <hr>
             <div class="row">
                 <div class="col-6">
@@ -98,7 +134,7 @@
                 </div>
                 <div class="col-2">
                     <div class="carrito-header">
-                        <h6>Precio</h6>
+                        <h6 class="text-truncate">Precio</h6>
                     </div>
                 </div>
                 <div class="col-4">
@@ -107,66 +143,119 @@
                     </div>
                 </div>
             </div>
-           
+         
             <div class="carrito-items carritoItems">
             </div>
             
 
-           
+            
             <div class="row">
                 <div class="col-12">
                     <div class="carrito-total d-flex align-items-center">
                         <p class="mb-0">Total</p>
-                        <p class="ml-4 mb-0 carritoTotal">$</p>
-                        <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
-                            <div class="toast-header">
-                                <span>✅</span>
-                                <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
-                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="toast-body text-white">
-                                Se aumentó correctamente la cantidad
-                            </div>
-                        </div>
-                        <button class="btn btn-success ml-auto botonComprar" type="button" data-toggle="modal" data-target="#comprarModal">Comprar</button>
-                    </div>
-                </div>
-            </div>
-
-            
-            <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Pronto recibirá su pedido</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        </div>
+                        <p class="ml-4 mb-0 carritoTotal">$0</p>  
+                        <button class="btn btn-success ml-auto botonComprar" type="button" data-toggle="modal"
+                            data-target="#comprarModal"><a href="mail.html">Comprar</a></button> 
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-  
 
-    <footer class="bg-dark p-3 mt-5">
-        <p class="text-center m-0 text-muted">Nonna Julia</p>
-    </footer>
    
+     
+    
+    <footer class="footer">
+        
+        <div style="background-color: #da9393;">
+          <div class="container">
+      
+            <div class="row py-4 d-flex align-items-center">
+      
+              <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                <h6 class="mb-0">¡Conéctese con nosotros en las redes sociales!</h6>
+              </div>
+    
+              <div class="col-md-6 col-lg-7 text-center text-md-right">
+      
+                <a class="fb-ic">
+                  <i class="fa fa-facebook-f white-text mr-4"> </i>
+                </a>
+                <a class="tw-ic">
+                  <i class="fa fa-twitter white-text mr-4"> </i>
+                </a>
+                
+                <a class="ins-ic" href="https://www.instagram.com/nonna.julia/" target="_blank">
+                  <i class="fa fa-instagram white-text mr-4"> </i>
+                </a>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      
+        <div class="container text-center text-md-left mt-5">
+          <div class="row mt-3 dark-grey-text">
+            <div class="col-md-3">
+              <h6 class="text-uppercase font-weight-bold">Nonna Julia</h6>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>Productos 100% caseros y de primera calidad.</p>
+      
+            </div>
+    
+            <div class="col-md-3">
+              <h6 class="text-uppercase font-weight-bold">Productos</h6>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <a class="dark-grey-text" href="#!">Destacado</a>
+              </p>
+              <p>
+                <a class="dark-grey-text" href="#!">Ofertas</a>
+              </p>
+              
+      
+            </div>
+            <div class="col-md-3">
+              <h6 class="text-uppercase font-weight-bold">Links relacionados</h6>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <a class="dark-grey-text" href="https://elgourmet.com/" target="_blank">Gourmet</a>
+              </p>
+              <p>
+                <a class="dark-grey-text" href="https://www.cucinare.tv/?gclid=CjwKCAjw4rf6BRAvEiwAn2Q76pXGiok4LAR79xt0WexMQPDfJkD5-dEYd1v7PYiqQoSLGcsNekVTzhoC3IYQAvD_BwE" target="_blank">Cuccinare</a>
+              </p>
+              <p>
+                <a class="dark-grey-text" href="https://cookpad.com/ar/buscar/torta" target="_blank">Cookpad</a>
+              </p>
+            </div>
+    
+            <div class="col-md-3">
+              <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <i class="fas fa-home mr-3"></i> Arce 855, CABA</p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> nonna.julia@hotmail.com</p>
+              <p>
+                <i class="fas fa-phone mr-3"></i> (011) 2552-6347</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright: Nonna Julia
+        </div>
+      
+      
+    
+          </footer>
+    
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
+      <script src="jquery/jquery.slim.min.js"></script>
+      <script src="css/jsBootstrap/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+      <script src="./index.js"></script>
+      <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
 
 </body>
 
